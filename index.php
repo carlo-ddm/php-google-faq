@@ -12,10 +12,27 @@
 </head>
 <body>
   <header>
+
     <div class="header-top" >
-      <img src="google-logo-png-29530.png" alt="Google Logo">
+
+      <img id="logo" src="google-logo-png-29530.png" alt="Google Logo">
+      <p>Privavacy e Termini</p>
+
     </div>
-    <div class="header-bottom" ></div>
+
+
+    <div class="header-bottom" >
+
+    <ul>
+      <li><a href="">Introduzione</a></li>
+      <li><a href="">Norme sulla privacy</a></li>
+      <li><a href="">Termini di servizio</a></li>
+      <li><a href="">Tecnologie</a></li>
+      <li><a href="">Domande frequenti</a></li>
+    </ul>
+
+    </div>
+
   </header>
   
 </body>
