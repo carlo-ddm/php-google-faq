@@ -11,6 +11,12 @@
   <title>Google FAQ</title>
 </head>
 <body>
+  <header>
+    <div class="header-top" >
+      <img src="google-logo-png-29530.png" alt="Google Logo">
+    </div>
+    <div class="header-bottom" ></div>
+  </header>
   
 </body>
 </html>
