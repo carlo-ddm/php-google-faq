@@ -116,13 +116,13 @@ $faqs = [
 
 <main>
       <div class="faq" >
-        <p class="domande" >Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatem vel sint maiores cumque rem facere dolorum deleniti praesentium? Fugiat nihil aspernatur exercitationem veritatis illum necessitatibus ex tempora laudantium delectus, quibusdam voluptate qui quidem cupiditate iusto magnam vitae rerum ipsam doloremque?</p>
+        <?php foreach($faqs as $faq): ?>
+        
+        <p class="domande" ><?php echo $faq['domanda']?></p>
         <div class="risposte" >
-          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem sed eius quia ex quis, voluptatibus voluptas sint ducimus cupiditate soluta ipsam numquam minus reprehenderit corporis ad consequatur necessitatibus sequi eligendi.</p>
-          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem sed eius quia ex quis, voluptatibus voluptas sint ducimus cupiditate soluta ipsam numquam minus reprehenderit corporis ad consequatur necessitatibus sequi eligendi.</p>
-          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem sed eius quia ex quis, voluptatibus voluptas sint ducimus cupiditate soluta ipsam numquam minus reprehenderit corporis ad consequatur necessitatibus sequi eligendi.</p>
+        <?php echo $faq['risposta']?>
         </div>
-
+        <?php endforeach ?>
       </div>
     </main>
     
