@@ -30,10 +30,24 @@
       <li><a href="#">Tecnologie</a></li>
       <li class="active" ><a href="#">Domande frequenti</a></li>
     </ul>
+    
+  </div>
+  
+</header>
 
-    </div>
+<main>
+      <div class="faq" >
+        <p class="domande" >Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatem vel sint maiores cumque rem facere dolorum deleniti praesentium? Fugiat nihil aspernatur exercitationem veritatis illum necessitatibus ex tempora laudantium delectus, quibusdam voluptate qui quidem cupiditate iusto magnam vitae rerum ipsam doloremque?</p>
+        <div class="risposte" >
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem sed eius quia ex quis, voluptatibus voluptas sint ducimus cupiditate soluta ipsam numquam minus reprehenderit corporis ad consequatur necessitatibus sequi eligendi.</p>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem sed eius quia ex quis, voluptatibus voluptas sint ducimus cupiditate soluta ipsam numquam minus reprehenderit corporis ad consequatur necessitatibus sequi eligendi.</p>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem sed eius quia ex quis, voluptatibus voluptas sint ducimus cupiditate soluta ipsam numquam minus reprehenderit corporis ad consequatur necessitatibus sequi eligendi.</p>
+        </div>
 
-  </header>
+      </div>
+    </main>
+    
+
   
 </body>
 </html>

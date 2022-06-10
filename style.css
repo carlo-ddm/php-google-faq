@@ -57,3 +57,27 @@ header {
 .header-bottom ul li.active a {
   color: #3367D6;
 }
+
+main {
+  padding-top: 35px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.faq {
+  width: 1100px;
+  margin: 0 auto;
+}
+
+.faq .domande {
+  color: black;
+  font-size: 1.5rem;
+}
+
+.faq .risposte {
+  font-size: .9rem;
+  line-height: 20px;
+}
+
+.faq .risposte p {
+  margin-bottom: 15px;
+}
